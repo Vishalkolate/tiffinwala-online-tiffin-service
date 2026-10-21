@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-2q-jl1+je*srw^ev55imn*7ou4cml6%&9yj!vb8a##p%dd!@+7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "tiffinwala-online-tiffin-service-3.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 MEDIA_URL = "/media/"
